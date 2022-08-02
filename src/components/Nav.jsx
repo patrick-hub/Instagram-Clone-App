@@ -14,19 +14,15 @@ const Nav = () => {
             <input type="text" className='search' placeholder='search' />
             <span className="nav-links">
                 <button>
-                    {/* <i className='fas fa-home' /> */}
                     <HomeIcon />
                 </button>
                 <button>
-                    {/* <i className='fas fa-comment-alt' /> */}
                     <CommentIcon />
                 </button>
                 <button>
-                    {/* <i className='fas fa-compass' /> */}
                     <CompassIcon />
                 </button>
                 <button>
-                    {/* <i className='fas fa-heart' /> */}
                     <HeartIcon />
                 </button>
             </span>
