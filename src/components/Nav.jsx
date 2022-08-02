@@ -1,8 +1,8 @@
 import instagramLogo from '../asset/instagram.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import HomeIcon from '../Icons/HomeIcon';
 import CommentIcon from '../Icons/CommentIcon';
 import CompassIcon from '../Icons/CompassIcon';
+import HeartIcon from '../Icons/HeartIcon';
 
 
 const Nav = () => {
@@ -26,7 +26,8 @@ const Nav = () => {
                     <CompassIcon />
                 </button>
                 <button>
-                    <i className='fas fa-heart' />
+                    {/* <i className='fas fa-heart' /> */}
+                    <HeartIcon />
                 </button>
             </span>
         </nav>
