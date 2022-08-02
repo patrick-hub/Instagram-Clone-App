@@ -14,7 +14,7 @@ const Nav = () => {
             <input type="text" className='search' placeholder='search' />
             <span className="nav-links">
                 <button>
-                    <HomeIco/>
+                    <HomeIcon/>
                 </button>
                 <button>
                     <CommentIcon />
