@@ -51,11 +51,25 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+
+
 .nav-links i {
   transform: scale(1.6);
   color: #252525;
 }
 
+ 
+
+@media (min-width:760px) {
+  .nav-links {
+    width: fit-content;
+    left: 0;
+  }
+.nav-links button {
+  margin: 0px 1em;
+
+}
+}
 .container {
   padding: 0 15%;
   position: relative
